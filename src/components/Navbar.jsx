@@ -41,7 +41,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 w-full z-50 bg-gray-900/95 backdrop-blur-md border-b border-gray-800 shadow-lg animate-fade-in">
       <div className="max-w-5xl mx-auto px-6 sm:px-8 lg:px-12">
-        <div className="grid grid-cols-2 md:grid-cols-3 items-center h-16">
+        <div className="grid grid-cols-2 md:grid-cols-3 items-center h-16 md:h-20">
           {/* Logo */}
           <div className="flex-shrink-0 justify-self-start">
             <button 
@@ -51,7 +51,7 @@ const Navbar = () => {
               <img
                 src={logo}
                 alt="Meztizza"
-                className="h-8 sm:h-9 w-auto object-contain drop-shadow"
+                className="h-10 sm:h-12 md:h-14 w-auto object-contain drop-shadow"
               />
             </button>
           </div>
