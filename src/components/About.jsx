@@ -86,6 +86,20 @@ const About = () => {
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
+            <div className="h-56 rounded-lg overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1738"
+                alt="Ambiente nocturno"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+            <div className="h-56 rounded-lg overflow-hidden">
+              <img 
+                src="https://plus.unsplash.com/premium_photo-1661883237884-263e8de8869b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bHV4dXJ5JTIwcmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600"
+                alt="Vista al mar"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              />
+            </div>
           </div>
         </div>
       </div>
